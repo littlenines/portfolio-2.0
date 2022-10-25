@@ -55,7 +55,37 @@
 
     <section class="s2">
       <div class="main-container">
-        <h1>About</h1>
+        <div class="about-wrapper">
+          <div class="about-me">
+            <h4>More about me</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia dicta facere illo consequuntur! Praesentium, cumque!</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita, accusamus. Ullam sed mollitia ut perspiciatis?</p>
+
+            <hr>
+
+            <h4>TOP EXPERTISE</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam, eveniet?: <a href="">Download resume</a> </p>
+
+            <div id="skills">
+              <ul>
+                <li>Python</li>
+                <li>Django</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Postgres</li>
+              </ul>
+
+              <ul>
+                <li>Python</li>
+                <li>Django</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Postgres</li>
+              </ul>
+            </div>
+          </div>
+          <div class="social-links" />
+        </div>
       </div>
     </section>
 
