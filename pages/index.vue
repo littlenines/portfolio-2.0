@@ -9,13 +9,13 @@
         <div class="intro-wrapper">
           <div class="nav-wrapper">
             <div class="dots-wrapper">
-              <div id="dot-1" class="browser-dot" />
-              <div id="dot-2" class="browser-dot" />
-              <div id="dot-3" class="browser-dot" />
+              <span id="dot-1" class="mdi mdi-ghost mdi-24px" />
+              <span id="dot-2" class="mdi mdi-ghost mdi-24px" />
+              <span id="dot-3" class="mdi mdi-ghost mdi-24px" />
             </div>
 
             <ul id="navigation">
-              <li><a href="">Contact</a></li>
+              <li><span class="mdi mdi-pac-man mdi-24px" /></li>
             </ul>
           </div>
           <div class="left-column">
@@ -63,24 +63,23 @@
 
             <hr>
 
-            <h4>TOP EXPERTISE</h4>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam, eveniet?: <a href="">Download resume</a> </p>
+            <h4>Familiar with</h4>
 
             <div id="skills">
               <ul>
-                <li>Python</li>
-                <li>Django</li>
-                <li>JavaScript</li>
-                <li>React</li>
-                <li>Postgres</li>
+                <li><span class="mdi mdi-24px mdi-language-html5" /> HTML</li>
+                <li><span class="mdi mdi-24px mdi-language-css3" /> CSS</li>
+                <li><span class="mdi mdi-24px mdi-language-javascript" /> JavaScript</li>
+                <li><span class="mdi mdi-24px mdi-nodejs" /> Node.js</li>
+                <li><span class="mdi mdi-24px mdi-vuetify" /> Vuetify</li>
               </ul>
 
               <ul>
-                <li>Python</li>
-                <li>Django</li>
-                <li>JavaScript</li>
-                <li>React</li>
-                <li>Postgres</li>
+                <li><span class="mdi mdi-24px mdi-vuejs" /> Vue.js</li>
+                <li><span class="mdi mdi-24px mdi-nuxt" /> Nuxt.js</li>
+                <li><span class="mdi mdi-24px mdi-bootstrap" /> Bootstrap</li>
+                <li><span class="mdi mdi-24px mdi-sass" /> SCSS</li>
+                <li><span class="mdi mdi-24px mdi-database" /> MySQl</li>
               </ul>
             </div>
           </div>
