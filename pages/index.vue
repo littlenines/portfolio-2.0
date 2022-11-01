@@ -36,17 +36,25 @@
             </p>
           </div>
           <div class="right-column">
-            <div id="preview-shadow">
-              <div id="preview">
-                <div id="corner-tl" class="corner" />
-                <div id="corner-tr" class="corner" />
-
-                <h3>What I Do</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque illo fugiat aspernatur fuga doloremque. Corporis!</p>
-
-                <div id="corner-br" class="corner" />
-                <div id="corner-bl" class="corner" />
+            <div id="preview">
+              <span id="corner-tl" class="mdi mdi-pac-man corner" />
+              <span id="corner-tr" class="mdi mdi-ghost dot-circle corner" />
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <h3>What I Do</h3>
+                  <p id="settings-note">
+                    *Hover me*
+                  </p>
+                </div>
+                <div class="flip-card-back">
+                  <p>
+                    I'm pursuing the opportunity to begin my career in the web
+                    development industry.
+                  </p>
+                </div>
               </div>
+              <span id="corner-bl" class="mdi mdi-ghost dot-circle corner" />
+              <span id="corner-br" class="mdi mdi-ghost dot-circle corner" />
             </div>
           </div>
         </div>
@@ -83,21 +91,42 @@
               </ul>
             </div>
           </div>
-          <div class="social-links" />
+          <div class="social-links">
+            <div class="card">
+              <div class="face face1">
+                <div class="content">
+                  <div class="icon">
+                    <span class="mdi mdi-linkedin" />
+                  </div>
+                </div>
+              </div>
+              <div class="face face2">
+                <div class="content">
+                  <h3>
+                    <a
+                      href="https://www.linkedin.com/in/galbinovic584/"
+                      target="_blank"
+                    >_galbinovic584
+                    </a>
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </section>
 
-    <section class="s1">
-      <div class="main-container">
-        <h1>Portfolio</h1>
-      </div>
-    </section>
+      <section class="s1">
+        <div class="main-container">
+          <h1>Portfolio</h1>
+        </div>
+      </section>
 
-    <section class="s2">
-      <div class="main-container">
-        <h1>Contact</h1>
-      </div>
+      <section class="s2">
+        <div class="main-container">
+          <h1>Contact</h1>
+        </div>
+      </section>
     </section>
   </div>
 </template>
