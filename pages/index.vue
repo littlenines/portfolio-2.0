@@ -1,48 +1,50 @@
 <template>
   <div>
-    <section class="s1">
-      <div class="main-container">
-        <div class="greeting-wrapper">
+    <section class="section-1">
+      <div class="container">
+        <div class="greeting-title">
           <h1>Hi, I'm Nemanja Galbinovic</h1>
         </div>
 
-        <div class="intro-wrapper">
-          <div class="nav-wrapper">
-            <div class="dots-wrapper">
-              <span id="dot-1" class="mdi mdi-ghost mdi-24px" />
-              <span id="dot-2" class="mdi mdi-ghost mdi-24px" />
-              <span id="dot-3" class="mdi mdi-ghost mdi-24px" />
+        <div class="hero">
+          <div class="hero-nav">
+            <div class="hero-nav-left">
+              <span class="mdi mdi-ghost mdi-24px danger-color" />
+              <span class="mdi mdi-ghost mdi-24px warning-color" />
+              <span class="mdi mdi-ghost mdi-24px success-color" />
             </div>
 
-            <ul id="navigation">
-              <li><span class="mdi mdi-pac-man mdi-24px" /></li>
+            <ul class="hero-nav-right">
+              <li>
+                <span class="mdi mdi-pac-man mdi-24px warning-color" />
+              </li>
             </ul>
           </div>
-          <div class="left-column">
-            <img id="profile_pic" src="~/assets/img/hero-picture.png" alt="hero img">
+          <div class="hero-left-column">
+            <img id="hero-image" src="~/assets/img/hero-picture.png" alt="hero img">
             <h5 style="text-align:center; line-height: 0;">
               Personalize Theme
             </h5>
 
-            <div id="theme-options-wrapper">
+            <div class="theme-options-wrapper">
               <div id="light-mode" class="theme-dot" />
               <div id="blue-mode" class="theme-dot" />
               <div id="green-mode" class="theme-dot" />
               <div id="purple-mode" class="theme-dot" />
             </div>
 
-            <p id="settings-note">
+            <p class="info-note">
               *Theme settings will be saved for your next visit
             </p>
           </div>
-          <div class="right-column">
-            <div id="preview">
-              <span id="corner-tl" class="mdi mdi-pac-man corner" />
-              <span id="corner-tr" class="mdi mdi-ghost dot-circle corner" />
+          <div class="hero-right-column">
+            <div id="flip-card">
+              <span id="corner-tl" class="mdi mdi-pac-man warning-color corner" />
+              <span id="corner-tr" class="mdi mdi-ghost danger-color dot-circle corner" />
               <div class="flip-card-inner">
                 <div class="flip-card-front">
                   <h3>What I Do</h3>
-                  <p id="settings-note">
+                  <p class="info-note">
                     *Hover me*
                   </p>
                 </div>
@@ -53,27 +55,27 @@
                   </p>
                 </div>
               </div>
-              <span id="corner-bl" class="mdi mdi-ghost dot-circle corner" />
-              <span id="corner-br" class="mdi mdi-ghost dot-circle corner" />
+              <span id="corner-bl" class="mdi mdi-ghost dot-circle success-color corner" />
+              <span id="corner-br" class="mdi mdi-ghost dot-circle warning-color corner" />
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="s2">
-      <div class="main-container">
-        <div class="about-wrapper">
-          <div class="about-me">
+    <section class="section-2">
+      <div class="container">
+        <div class="about">
+          <div class="about-wrapper">
             <h4>More about me</h4>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia dicta facere illo consequuntur! Praesentium, cumque!</p>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita, accusamus. Ullam sed mollitia ut perspiciatis?</p>
 
-            <hr>
+            <div class="divider" />
 
             <h4>Familiar with</h4>
 
-            <div id="skills">
+            <div class="skills">
               <ul>
                 <li><span class="mdi mdi-24px mdi-language-html5" /> HTML</li>
                 <li><span class="mdi mdi-24px mdi-language-css3" /> CSS</li>
@@ -91,16 +93,16 @@
               </ul>
             </div>
           </div>
-          <div class="social-links">
+          <div class="social-link">
             <div class="card">
-              <div class="face face1">
+              <div class="face face-1">
                 <div class="content">
                   <div class="icon">
                     <span class="mdi mdi-linkedin" />
                   </div>
                 </div>
               </div>
-              <div class="face face2">
+              <div class="face face-2">
                 <div class="content">
                   <h3>
                     <a
@@ -116,14 +118,14 @@
         </div>
       </div>
 
-      <section class="s1">
-        <div class="main-container">
+      <section class="section-1">
+        <div class="container">
           <h1>Portfolio</h1>
         </div>
       </section>
 
-      <section class="s2">
-        <div class="main-container">
+      <section class="section-2">
+        <div class="container">
           <h1>Contact</h1>
         </div>
       </section>
