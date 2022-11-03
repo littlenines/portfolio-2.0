@@ -27,10 +27,10 @@
             </h5>
 
             <div class="theme-options-wrapper">
-              <div id="light-mode" class="theme-dot" />
-              <div id="blue-mode" class="theme-dot" />
-              <div id="green-mode" class="theme-dot" />
-              <div id="purple-mode" class="theme-dot" />
+              <div id="light-mode" class="theme-dot" @click="$colorMode.preference = 'light'" />
+              <div id="blue-mode" class="theme-dot" @click="$colorMode.preference = 'blue'" />
+              <div id="green-mode" class="theme-dot" @click="$colorMode.preference = 'green'" />
+              <div id="purple-mode" class="theme-dot" @click="$colorMode.preference = 'purple'" />
             </div>
 
             <p class="info-note">
