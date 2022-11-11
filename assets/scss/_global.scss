@@ -64,6 +64,10 @@ body * {
   transition: 0.3s;
 }
 
+body {
+  overflow: overlay;
+}
+
 h1,
 h2,
 h3,
@@ -548,7 +552,7 @@ h6 {
 }
 
 ::-webkit-scrollbar-thumb {
-  height: 20px;
+  height: 40px;
   border-radius: 0.5rem;
   background: var(--borderColor);
 }

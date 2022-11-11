@@ -9,7 +9,11 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' }
+      { name: 'format-detection', content: 'telephone=no' },
+      { hid: "og-title", property: "og:title", content: "Nemanja Galbinovic - Web Portfolio"},
+      { hid: "og-description", property: "og:description", content: "Seeking to learn and improve myself as well as meet new people"},
+      { hid: "og-url", property: "og:url", content: "https://nemanja-galbinovic.herokuapp.com"},
+      { hid: "og-image", property: "og:image", content: "/og-image.jpg"},
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -22,7 +26,6 @@ export default {
   css: [
     '@/assets/scss/main.scss'
   ],
-  ssr: true,
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
