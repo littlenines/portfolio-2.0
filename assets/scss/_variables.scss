@@ -1,0 +1,88 @@
+$black: #000;
+$white: #fff;
+$danger: #fc6058;
+$warning: #fec02f;
+$success: #2aca3e;
+$primary: #0077b5;
+$card-font: #414141;
+$hover-color: #6B728E;
+
+$dark-mode: #212529;
+$blue-mode: #264c6f;
+$green-mode: #78866b;
+$purple-mode: #7e4c74;
+
+$html:rgb(229, 76, 33);
+$css: rgb(41, 101, 241);
+$javascript: #ff9800;
+$nodejs: #4caf50;
+$vuetify: rgb(123, 198, 255);
+$vuejs: rgb(66, 184, 131);
+$nuxt: rgb(0, 197, 142);
+$bootstrap: rgb(115, 9, 245);
+$sass: #bf4080;
+$database: #03a9f4;
+
+$dark-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+$card-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.75);
+$default-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+
+:root {
+  --mainColor: #eaeaea;
+  --secondaryColor: #fff;
+  --borderColor: #c1c1c1;
+  --mainText: #000;
+  --secondaryText: #4b5156;
+  --themeDotBorder: #24292e;
+  --previewBg: rgb(251, 249, 243, 0.8);
+  --previewShadow: #f0ead6;
+  --buttonColor: #000;
+}
+
+.purple-mode {
+  --mainColor: #46344e;
+  --secondaryColor: #382a3f;
+  --borderColor: #1d1520;
+  --mainText: #fff;
+  --secondaryText: #eeeeee;
+  --themeDotBorder: #fff;
+  --previewBg: rgb(29, 21, 32, 0.8);
+  --previewShadow: #2b202f;
+  --buttonColor: #8534a3;
+}
+
+.green-mode {
+  --mainColor: #606b56;
+  --secondaryColor: #515a48;
+  --borderColor: #161914;
+  --mainText: #fff;
+  --secondaryText: #eeeeee;
+  --themeDotBorder: #fff;
+  --previewBg: rgb(81, 90, 72, 0.8);
+  --previewShadow: #2a2f25;
+  --buttonColor: #669966;
+}
+
+.blue-mode {
+  --mainColor: #15202b;
+  --secondaryColor: #192734;
+  --borderColor: #164d56;
+  --mainText: #fff;
+  --secondaryText: #eeeeee;
+  --themeDotBorder: #17a2b8;
+  --previewBg: rgb(25, 39, 52, 0.8);
+  --previewShadow: #111921;
+  --buttonColor: #17a2b8;
+}
+
+.dark-mode {
+  --mainColor: #181818;
+  --secondaryColor: #212121;
+  --borderColor: #3D3D3D;
+  --mainText: #fff;
+  --secondaryText: #e2e0e0;
+  --themeDotBorder: #fff;
+  --previewBg: #212121;
+  --previewShadow: #181818;
+  --buttonColor: #fff;
+}

@@ -1,122 +1,3 @@
-:root {
-  --mainColor: #eaeaea;
-  --secondaryColor: #fff;
-  --borderColor: #c1c1c1;
-  --mainText: #000;
-  --secondaryText: #4b5156;
-  --themeDotBorder: #24292e;
-  --previewBg: rgb(251, 249, 243, 0.8);
-  --previewShadow: #f0ead6;
-  --buttonColor: #000;
-}
-
-.purple-mode {
-  --mainColor:#46344E;
-	--secondaryColor:#382a3f;
-	--borderColor:#1d1520;
-	--mainText:#fff;
-	--secondaryText:#eeeeee;
-	--themeDotBorder:#FFF;
-	--previewBg:rgb(29, 21, 32, 0.8);
-	--previewShadow:#2b202f;
-	--buttonColor:#8534a3;
-}
-
-.green-mode {
-  --mainColor:#606B56;
-	--secondaryColor:#515a48;
-	--borderColor:#161914;
-	--mainText:#fff;
-	--secondaryText:#eeeeee;
-	--themeDotBorder:#FFF;
-	--previewBg:rgb(81, 90, 72, 0.8);
-	--previewShadow:#2a2f25;
-	--buttonColor:#669966;
-}
-
-.blue-mode {
-  --mainColor:#15202B;
-	--secondaryColor:#192734;
-	--borderColor:#164D56;
-	--mainText:#fff;
-	--secondaryText:#eeeeee;
-	--themeDotBorder:#FFF;
-	--previewBg:rgb(25, 39, 52, 0.8);
-	--previewShadow:#111921;
-	--buttonColor:#17a2b8;
-}
-
-html,
-body {
-  padding: 0;
-  margin: 0;
-  scroll-behavior: smooth;
-}
-
-*,
-:after,
-:before {
-  background-repeat: no-repeat;
-  box-sizing: border-box;
-}
-
-body * {
-  transition: 0.3s;
-}
-
-body {
-  overflow: overlay;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-strong {
-  color: var(--mainText);
-  font-family: "Play", sans-serif;
-}
-
-p,
-li,
-span,
-label,
-input,
-textarea {
-  color: var(--secondaryText);
-  font-family: "Roboto Mono", monospace;
-}
-
-a {
-  text-decoration: none;
-  color: #17a2b8;
-}
-
-ul {
-  list-style: none;
-}
-
-h1 {
-  font-size: 56px;
-}
-h2 {
-  font-size: 36px;
-}
-h3 {
-  font-size: 28px;
-}
-h4 {
-  font-size: 24px;
-}
-h5 {
-  font-size: 20px;
-}
-h6 {
-  font-size: 16px;
-}
-
 .section-1 {
   overflow: auto;
   background-color: var(--mainColor);
@@ -142,12 +23,9 @@ h6 {
 
 .hero {
   border-radius: 5px 5px 0 0;
+  box-shadow: $default-shadow;
   border: 1px solid var(--borderColor);
   background-color: var(--secondaryColor);
-
-  -webkit-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
-  box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
 
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -171,17 +49,11 @@ h6 {
   padding: 10px;
 }
 
-.danger-color {
-  color: #fc6058;
-}
+.danger--color { color: $danger; }
 
-.warning-color {
-  color: #fec02f;
-}
+.warning--color { color: $warning; }
 
-.success-color {
-  color: #2aca3e;
-}
+.success--color { color: $success; }
 
 .hero-nav-right {
   margin: 0;
@@ -228,31 +100,50 @@ h6 {
   width: 35px;
   height: 35px;
   border-radius: 50%;
-  background-color: #000;
+  background-color: $black;
 
   margin: 5px;
+  box-shadow: $default-shadow;
   border: 2px solid var(--themeDotBorder);
-
-  -webkit-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
-  box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
 
   cursor: pointer;
 
   &:hover {
     border-width: 5px;
-    border-color: #6B728E;
+    border-color: $hover-color;
     transform: translateY(-3px);
   }
 }
 
-#light-mode { background-color: #fff; }
+#light-mode { background-color: $white; }
 
-#blue-mode { background-color: #192734; }
+#dark-mode { background-color: $dark-mode; }
 
-#green-mode { background-color: #78866b; }
+#blue-mode { background-color: $blue-mode; }
 
-#purple-mode { background-color: #7e4c74; }
+#green-mode { background-color: $green-mode; }
+
+#purple-mode { background-color: $purple-mode; }
+
+.icon-html5--color { color: $html; }
+
+.icon-css3--color { color: $css; }
+
+.icon-javascript--color { color: $javascript; }
+
+.icon-nodejs--color { color: $nodejs; }
+
+.icon-vuetify--color { color: $vuetify; }
+
+.icon-vuejs--color { color: $vuejs; }
+
+.icon-nuxt--color { color: $nuxt; }
+
+.icon-bootstrap--color { color: $bootstrap; }
+
+.icon-sass--color { color: $sass; }
+
+.icon-database--color { color: $database; }
 
 .info-note {
   font-size: 12px;
@@ -266,8 +157,8 @@ h6 {
   padding: 15px;
   position: relative;
   perspective: 1000px;
-  border: 1.5px dashed #17a2b8;
   background-color: var(--previewShadow);
+  border: 1.5px dashed var(--themeDotBorder);
 }
 
 .corner { position: absolute; }
@@ -284,7 +175,7 @@ h6 {
 
 #corner-br {
   bottom: -11px;
-  right: -8px;
+  right: -9px;
 }
 
 #corner-bl {
@@ -296,9 +187,9 @@ h6 {
   height: 100%;
   position: relative;
   text-align: center;
+  box-shadow: $dark-shadow;
   transition: transform 0.6s;
   transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 #flip-card:hover .flip-card-inner {
@@ -334,9 +225,7 @@ h6 {
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
 
-.divider {
-	border-bottom: 1px solid #000;
-}
+.divider { border-bottom: 1px solid $black; }
 
 .skills {
   display: flex;
@@ -344,7 +233,10 @@ h6 {
   background-color: var(--previewShadow);
 
   li {
+    display: flex;
+    gap: 5px;
     margin: 15px 0;
+    align-items: center;
   }
 }
 
@@ -368,18 +260,18 @@ h6 {
   width: 100%;
   height: 100%;
   transition: 0.7s;
-  background-color: #f00;
+  background-color: $primary;
 }
 
 .card:nth-child(1) .icon {
-  background: #0077b5;
+  background: $primary;
 }
 
 .card .icon .mdi {
   position: absolute;
   top: 50%;
   left: 50%;
-  color: #fff;
+  color: $white;
   font-size: 80px;
   transition: 0.7s;
   transform: translate(-50%, -50%);
@@ -389,7 +281,7 @@ h6 {
   position: absolute;
   top: 50%;
   left: 50%;
-  color: #fff;
+  color: $white;
   font-size: 80px;
   transition: 0.7s;
   transform: translate(-50%, -50%);
@@ -409,13 +301,13 @@ h6 {
   justify-content: center;
 
   z-index: 1;
-  background: #333;
+  background-color: $primary;
   transform: translateY(100px);
 }
 
 .card:hover .face.face-1 {
-  background: #ff0057;
   transform: translateY(0px);
+  background-color: $primary;
 }
 
 .card .face.face-1 .content {
@@ -433,7 +325,7 @@ h6 {
 
 .card .face.face-2 {
   position: relative;
-  background: #fff;
+  background-color: $white;
 
   display: flex;
   align-items: center;
@@ -441,8 +333,8 @@ h6 {
 
   padding: 20px;
   box-sizing: border-box;
+  box-shadow: $card-shadow;
   transform: translateY(-100px);
-  box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.75);
 }
 
 .card:hover .face.face-2 {
@@ -452,22 +344,20 @@ h6 {
 .card .face.face-2 .content p {
   margin: 0;
   padding: 0;
-  color: #414141;
+  color: $card-font;
   text-align: center;
 }
 
 .card .face.face-2 .content h3 {
   padding: 0;
-  color: #fff;
+  color: $white;
   font-size: 24px;
-  color: #414141;
+  color: $card-font;
   text-align: center;
   margin: 0 0 10px 0;
 }
 
-.card a {
-  color: #1976d2;
-}
+.card a { color: $primary; }
 
 // .post-wrapper {
 //   display: grid;

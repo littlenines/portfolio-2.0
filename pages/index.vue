@@ -9,14 +9,14 @@
         <div class="hero">
           <div class="hero-nav">
             <div class="hero-nav-left">
-              <span class="mdi mdi-ghost mdi-24px danger-color" />
-              <span class="mdi mdi-ghost mdi-24px warning-color" />
-              <span class="mdi mdi-ghost mdi-24px success-color" />
+              <span class="mdi mdi-ghost mdi-24px danger--color" />
+              <span class="mdi mdi-ghost mdi-24px warning--color" />
+              <span class="mdi mdi-ghost mdi-24px success--color" />
             </div>
 
             <ul class="hero-nav-right">
               <li>
-                <span class="mdi mdi-pac-man mdi-24px warning-color" />
+                <span class="mdi mdi-pac-man mdi-24px warning--color" />
               </li>
             </ul>
           </div>
@@ -28,8 +28,9 @@
 
             <div class="theme-options-wrapper">
               <div id="light-mode" class="theme-dot" @click="$colorMode.preference = 'light'" />
-              <div id="blue-mode" class="theme-dot" @click="$colorMode.preference = 'blue'" />
+              <div id="dark-mode" class="theme-dot" @click="$colorMode.preference = 'dark'" />
               <div id="green-mode" class="theme-dot" @click="$colorMode.preference = 'green'" />
+              <div id="blue-mode" class="theme-dot" @click="$colorMode.preference = 'blue'" />
               <div id="purple-mode" class="theme-dot" @click="$colorMode.preference = 'purple'" />
             </div>
 
@@ -39,8 +40,8 @@
           </div>
           <div class="hero-right-column">
             <div id="flip-card">
-              <span id="corner-tl" class="mdi mdi-pac-man warning-color corner" />
-              <span id="corner-tr" class="mdi mdi-ghost danger-color dot-circle corner" />
+              <span id="corner-tl" class="mdi mdi-pac-man warning--color corner" />
+              <span id="corner-tr" class="mdi mdi-ghost danger--color dot-circle corner" />
               <div class="flip-card-inner">
                 <div class="flip-card-front">
                   <h3>What I Do</h3>
@@ -55,8 +56,8 @@
                   </p>
                 </div>
               </div>
-              <span id="corner-bl" class="mdi mdi-ghost dot-circle success-color corner" />
-              <span id="corner-br" class="mdi mdi-ghost dot-circle warning-color corner" />
+              <span id="corner-bl" class="mdi mdi-ghost dot-circle success--color corner" />
+              <span id="corner-br" class="mdi mdi-ghost dot-circle warning--color corner" />
             </div>
           </div>
         </div>
@@ -77,19 +78,19 @@
 
             <div class="skills">
               <ul>
-                <li><span class="mdi mdi-24px mdi-language-html5" /> HTML</li>
-                <li><span class="mdi mdi-24px mdi-language-css3" /> CSS</li>
-                <li><span class="mdi mdi-24px mdi-language-javascript" /> JavaScript</li>
-                <li><span class="mdi mdi-24px mdi-nodejs" /> Node.js</li>
-                <li><span class="mdi mdi-24px mdi-vuetify" /> Vuetify</li>
+                <li><span class="mdi mdi-24px mdi-language-html5 icon-html5--color" /> HTML</li>
+                <li><span class="mdi mdi-24px mdi-language-css3 icon-css3--color" /> CSS</li>
+                <li><span class="mdi mdi-24px mdi-language-javascript icon-javascript--color" /> JavaScript</li>
+                <li><span class="mdi mdi-24px mdi-nodejs icon-nodejs--color" /> Node.js</li>
+                <li><span class="mdi mdi-24px mdi-vuetify icon-vuetify--color" /> Vuetify</li>
               </ul>
 
               <ul>
-                <li><span class="mdi mdi-24px mdi-vuejs" /> Vue.js</li>
-                <li><span class="mdi mdi-24px mdi-nuxt" /> Nuxt.js</li>
-                <li><span class="mdi mdi-24px mdi-bootstrap" /> Bootstrap</li>
-                <li><span class="mdi mdi-24px mdi-sass" /> SCSS</li>
-                <li><span class="mdi mdi-24px mdi-database" /> MySQl</li>
+                <li><span class="mdi mdi-24px mdi-vuejs icon-vuejs--color" /> Vue.js</li>
+                <li><span class="mdi mdi-24px mdi-nuxt icon-nuxt--color" /> Nuxt.js</li>
+                <li><span class="mdi mdi-24px mdi-bootstrap icon-bootstrap--color" /> Bootstrap</li>
+                <li><span class="mdi mdi-24px mdi-sass icon-sass--color" /> SCSS</li>
+                <li><span class="mdi mdi-24px mdi-database icon-database--color" /> MySQl</li>
               </ul>
             </div>
           </div>
