@@ -40,8 +40,8 @@
           </div>
           <div class="hero-right-column">
             <div id="flip-card">
-              <span id="corner-tl" class="mdi mdi-pac-man warning--color corner" />
-              <span id="corner-tr" class="mdi mdi-ghost danger--color dot-circle corner" />
+              <span id="corner-tl" class="mdi mdi-pac-man mdi-18px warning--color corner" />
+              <span id="corner-tr" class="mdi mdi-ghost mdi-18px danger--color corner" />
               <div class="flip-card-inner">
                 <div class="flip-card-front">
                   <h3>What I Do</h3>
@@ -56,8 +56,8 @@
                   </p>
                 </div>
               </div>
-              <span id="corner-bl" class="mdi mdi-ghost dot-circle success--color corner" />
-              <span id="corner-br" class="mdi mdi-ghost dot-circle warning--color corner" />
+              <span id="corner-bl" class="mdi mdi-ghost mdi-18px success--color corner" />
+              <span id="corner-br" class="mdi mdi-ghost mdi-18px warning--color corner" />
             </div>
           </div>
         </div>

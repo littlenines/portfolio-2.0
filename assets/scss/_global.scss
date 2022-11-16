@@ -1,3 +1,8 @@
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
 .section-1 {
   overflow: auto;
   background-color: var(--mainColor);
@@ -8,11 +13,6 @@
   overflow: auto;
   background-color: var(--secondaryColor);
   border-bottom: 1px solid var(--borderColor);
-}
-
-.container {
-  width: 1200px;
-  margin: 0 auto;
 }
 
 .greeting-title {
@@ -146,7 +146,7 @@
 .icon-database--color { color: $database; }
 
 .info-note {
-  font-size: 12px;
+  font-size: 1.2rem;
   font-style: italic;
   text-align: center;
 }
@@ -164,12 +164,12 @@
 .corner { position: absolute; }
 
 #corner-tl {
-  top: -12px;
+  top: -10px;
   left: -8px;
 }
 
 #corner-tr {
-  top: -12px;
+  top: -11px;
   right: -8px;
 }
 
@@ -180,7 +180,7 @@
 
 #corner-bl {
   bottom: -11px;
-  left: -8px;
+  left: -9px;
 }
 
 .flip-card-inner {
@@ -272,7 +272,7 @@
   top: 50%;
   left: 50%;
   color: $white;
-  font-size: 80px;
+  font-size: 8rem;
   transition: 0.7s;
   transform: translate(-50%, -50%);
 }
@@ -282,7 +282,7 @@
   top: 50%;
   left: 50%;
   color: $white;
-  font-size: 80px;
+  font-size: 8rem;
   transition: 0.7s;
   transform: translate(-50%, -50%);
 }
@@ -351,7 +351,7 @@
 .card .face.face-2 .content h3 {
   padding: 0;
   color: $white;
-  font-size: 24px;
+  font-size: 2.4rem;
   color: $card-font;
   text-align: center;
   margin: 0 0 10px 0;
