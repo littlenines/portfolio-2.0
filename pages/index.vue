@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="section-1">
+    <section id="top" class="section-1">
       <div class="container">
         <div class="greeting-title">
           <h1>Hi, I'm Nemanja Galbinovic</h1>
@@ -64,7 +64,7 @@
       </div>
     </section>
 
-    <section class="section-2">
+    <section id="info" class="section-2">
       <div class="container">
         <div class="about">
           <div class="about-wrapper">
@@ -119,7 +119,7 @@
         </div>
       </div>
 
-      <section class="section-1">
+      <section id="code" class="section-1">
         <div class="container">
           <h1>Portfolio</h1>
         </div>
@@ -131,11 +131,12 @@
         </div>
       </section>
     </section>
+    <BackToTop />
   </div>
 </template>
 
 <script>
 export default {
-  name: 'IndexPage'
+  name: 'HomePage'
 }
 </script>

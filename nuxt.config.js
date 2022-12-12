@@ -28,6 +28,12 @@ export default {
     '@/assets/scss/main.scss'
   ],
 
+  styleResources: {
+    scss: [
+      '@/assets/scss/_variables.scss'
+    ]
+  },
+
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
   ],
@@ -44,7 +50,8 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    'nuxtjs-mdi-font'
+    'nuxtjs-mdi-font',
+    '@nuxtjs/style-resources'
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
